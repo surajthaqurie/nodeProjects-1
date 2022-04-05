@@ -1,0 +1,23 @@
+/* 
+Node in built asynchronous function
+*/
+
+console.log('Starting');
+
+setTimeout(() => {
+    console.log('2 Second Timer');
+}, 2000);
+
+
+setTimeout(() => {
+    console.log('0 Second Timer');
+}, 0)
+console.log('Stopping');
+
+/* 
+Output:
+Starting
+Stopping
+0 Second Timer
+2 Second Timer
+*/

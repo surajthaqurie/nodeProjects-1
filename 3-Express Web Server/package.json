@@ -1,0 +1,22 @@
+{
+  "name": "3-web-server",
+  "version": "1.0.0",
+  "description": "#### Used API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "hbs": "^4.2.0",
+    "postman-request": "^2.88.1-postman.31"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
